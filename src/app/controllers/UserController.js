@@ -61,7 +61,6 @@ class UserController {
     }
 
     if (oldPassword && !(await user.checkPassword(oldPassword))) {
-      console.log(oldPassword);
       return res.status(401).json({ error: 'Password does not match' });
     }
 
