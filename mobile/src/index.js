@@ -8,7 +8,7 @@ import './config/ReactotronConfig';
 import { store, persistor } from './store';
 import Routes from './routes';
 
-function App() {
+export default function App() {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
@@ -18,5 +18,3 @@ function App() {
     </Provider>
   );
 }
-
-export default App;
