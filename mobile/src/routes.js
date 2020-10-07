@@ -35,7 +35,6 @@ export default function Routes() {
             component={Profile}
             options={{
               tabBarLabel: 'Meu Perfil',
-
               tabBarIcon: ({ color, size }) => (
                 <Icon name="person" size={size} color={color} />
               ),
