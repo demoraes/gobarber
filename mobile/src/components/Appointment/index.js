@@ -33,7 +33,7 @@ export default function Appointment({ data }) {
       {data.cancelable && (
         <TouchableOpacity onPress={() => {}}>
           <Icon name="event-busy" size={20} color="#f64c75" />
-        </TouchableOpacity>e
+        </TouchableOpacity>
       )}
     </Container>
   );
