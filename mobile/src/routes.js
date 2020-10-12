@@ -11,8 +11,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
-import SelectDateTime from './pages/New/SelectDateTime';
 import SelectProvider from './pages/New/SelectProvider';
+import SelectDateTime from './pages/New/SelectDateTime';
 import Confirm from './pages/New/Confirm';
 
 import Dashboard from './pages/Dashboard';
@@ -31,11 +31,10 @@ function New() {
       }}
     >
       <AppStack.Screen
-        name="SelectDateTime"
-        component={SelectDateTime}
+        name="SelectProvider"
+        component={SelectProvider}
         options={({ navigation }) => ({
           headerTitle: 'Selecione o Prestador',
-          headerTitleStyle: { alignSelf: 'center' },
           headerLeft: () => (
             <TouchableOpacity
               onPress={() => {
@@ -47,7 +46,18 @@ function New() {
           ),
         })}
       />
-      <AppStack.Screen name="SelectProvider" component={SelectProvider} />
+      <AppStack.Screen
+        name="SelectDateTime"
+        component={SelectDateTime}
+        options={({ navigation }) => ({
+          headerTitle: 'Selecione o horário',
+          headerLeft: () => (
+            <TouchableOpacity onPress={() => navigation.goBack()}>
+              <Icon name="chevron-left" size={20} color="#fff" />
+            </TouchableOpacity>
+          ),
+        })}
+      />
       <AppStack.Screen name="Confirm" component={Confirm} />
     </AppStack.Navigator>
   );
