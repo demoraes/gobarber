@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
+import { TouchableOpacity } from 'react-native';
 import { useSelector } from 'react-redux';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -9,11 +11,47 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
+import SelectDateTime from './pages/New/SelectDateTime';
+import SelectProvider from './pages/New/SelectProvider';
+import Confirm from './pages/New/Confirm';
+
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 
 const AppStack = createStackNavigator();
 const Tab = createBottomTabNavigator();
+
+function New() {
+  return (
+    <AppStack.Navigator
+      screenOptions={{
+        headerTransparent: true,
+        headerTintColor: '#fff',
+        headerLeftContainerStyle: { marginLeft: 20 },
+      }}
+    >
+      <AppStack.Screen
+        name="SelectDateTime"
+        component={SelectDateTime}
+        options={({ navigation }) => ({
+          headerTitle: 'Selecione o Prestador',
+          headerTitleStyle: { alignSelf: 'center' },
+          headerLeft: () => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('Dashboard');
+              }}
+            >
+              <Icon name="chevron-left" size={20} color="#fff" />
+            </TouchableOpacity>
+          ),
+        })}
+      />
+      <AppStack.Screen name="SelectProvider" component={SelectProvider} />
+      <AppStack.Screen name="Confirm" component={Confirm} />
+    </AppStack.Navigator>
+  );
+}
 
 export default function Routes() {
   const isSignedIn = useSelector((state) => state.auth.signed);
@@ -40,12 +78,24 @@ export default function Routes() {
               ),
             }}
           />
+
+          <AppStack.Screen
+            name="New"
+            component={New}
+            options={{
+              tabBarVisible: false,
+              tabBarLabel: 'Agendar',
+              tabBarIcon: ({ color, size }) => (
+                <Icon name="add-circle-outline" size={size} color={color} />
+              ),
+            }}
+          />
+
           <Tab.Screen
             name="Dashboard"
             component={Dashboard}
             options={{
               tabBarLabel: 'Agendamentos',
-
               tabBarIcon: ({ color, size }) => (
                 <Icon name="event" size={size} color={color} />
               ),
