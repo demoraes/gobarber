@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useMemo } from 'react';
 import { DatePickerAndroid } from 'react-native';
 import { format } from 'date-fns';
