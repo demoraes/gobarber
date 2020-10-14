@@ -58,7 +58,18 @@ function New() {
           ),
         })}
       />
-      <AppStack.Screen name="Confirm" component={Confirm} />
+      <AppStack.Screen
+        name="Confirm"
+        component={Confirm}
+        options={({ navigation }) => ({
+          headerTitle: 'Confirmar Agendamento',
+          headerLeft: () => (
+            <TouchableOpacity onPress={() => navigation.goBack()}>
+              <Icon name="chevron-left" size={20} color="#fff" />
+            </TouchableOpacity>
+          ),
+        })}
+      />
     </AppStack.Navigator>
   );
 }
@@ -93,7 +104,6 @@ export default function Routes() {
             name="New"
             component={New}
             options={{
-              tabBarVisible: false,
               tabBarLabel: 'Agendar',
               tabBarIcon: ({ color, size }) => (
                 <Icon name="add-circle-outline" size={size} color={color} />
