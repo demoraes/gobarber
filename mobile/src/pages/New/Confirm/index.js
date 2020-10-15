@@ -23,7 +23,10 @@ export default function Confirm({ route, navigation }) {
       date: time,
     });
 
-    navigation.navigate('Dashboard');
+    navigation.reset({
+      index: 0,
+      routes: [{ name: 'Dashboard' }],
+    });
   }
 
   return (
