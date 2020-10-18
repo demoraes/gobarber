@@ -1,7 +1,5 @@
-# DESAFIO NLW-01
-
 <h1 align="center">
-    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/NLW-01/blob/master/.github/logo.svg" width="220px" />
+    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="220px" />
 </h1>
 
 <p align="center">
@@ -16,19 +14,14 @@
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/demoraes/gobarber">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/demoraes/gobarber">
-  -------
-  <a href="https://github.com/demoraes/gobarber/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta.svg">
-  </a>
-  -------  
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet">
   </a>
 </p>
 
 <p align="center">
- <img src=".github/mockup-pc.png"  />
- <img src=".github/mockup.png"  />
+ <img src="https://github.com/demoraes/gobarber/blob/master/img/mockup/mockup-pc-01.png"  />
+ <img src="https://github.com/demoraes/gobarber/blob/master/img/mockup/mockup-pc-02.png"  />
 </p>
 
 ## Tecnologias
@@ -48,7 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ### :mortar_board: Quem ministrou?
 
-  O Bootcamp da Rocketseat ministrada pelo [Diego Fernandes](https://github.com/diego3g)
+  O Bootcamp foi ministrado pelo [Diego Fernandes](https://github.com/diego3g) da Rocketseat
 
 ### ⚙ Como rodar o projeto na sua máquina
 
@@ -83,7 +76,7 @@ $ cd gobarber
 $ cd backend
 
 # Instale as dependências
-$ npm install ou yarn add
+$ npm install ou yarn
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
@@ -91,20 +84,20 @@ $ yarn dev
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
 ```
   Você pode usar todas as rotas utilizando o insomnia
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20NLW-01&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdemoraes%2FNLW-01%2Fmaster%2FInsomnia_2020-06-13.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Routes%20Gobarber&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdemoraes%2Fgobarber%2Fmaster%2Fimg%2FInsomnia_2020-10-17)
 
 
 ### 🧭 Rodando o Frontend
 
 ```bash
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd ecoleta
+$ cd gobarber
 
 # Vá para a pasta da aplicação FrontEnd
-$ cd frontend
+$ cd web
 
 # Instale as dependências
-$ npm install ou yarn add
+$ npm install ou yarn
 
 # Execute a aplicação
 $ npm start ou yarn start
@@ -121,10 +114,6 @@ $ npm start ou yarn start
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 
 
