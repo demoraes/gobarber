@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="60px" />Gobarber
+    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="30px" />Gobarber
 </h1>
 
 <p align="center">
@@ -21,7 +21,8 @@
 
 <p align="center">
  <img src="./img/mockup/mockup-pc.png"  />
- <img src="./img/mockup/gifs/peek_17-10-2020 22-05.gif"  />
+ <img src="./img/mockup/gifs/pc.gif"  />
+ <img src="./img/mockup/gifs/mobile.gif"  />
 </p>
 
 ## Tecnologias
