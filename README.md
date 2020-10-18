@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="220px" />
+    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="120px" />Gobarber
 </h1>
 
 <p align="center">
@@ -20,8 +20,8 @@
 </p>
 
 <p align="center">
- <img src="https://github.com/demoraes/gobarber/blob/master/img/mockup/mockup-pc-01.png"  />
- <img src="https://github.com/demoraes/gobarber/blob/master/img/mockup/mockup-pc-02.png"  />
+ <img src="./img/mockup/mockup-pc-01.png"  />
+ <img src="./img/mockup/mockup-pc-02.png"  />
 </p>
 
 ## Tecnologias
