@@ -21,6 +21,7 @@
 
 <p align="center">
  <img src="./img/mockup/mockup-pc.png"  />
+ <img src="./img/mockup/gifs/peek_17-10-2020 22-05.gif"  />
 </p>
 
 ## Tecnologias
