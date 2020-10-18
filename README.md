@@ -21,8 +21,10 @@
 
 <p align="center">
  <img src="./img/mockup/mockup-pc.png"  />
- <img src="./img/mockup/gifs/pc.gif"  />
- <img src="./img/mockup/gifs/mobile.gif"  />
+ <p align="center">
+   <img src="./img/mockup/gifs/pc.gif"  />
+   <img src="./img/mockup/gifs/mobile.gif"  />
+ </p>
 </p>
 
 ## Tecnologias
