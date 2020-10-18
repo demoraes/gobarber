@@ -20,8 +20,7 @@
 </p>
 
 <p align="center">
- <img src="./img/mockup/mockup-pc-01.png"  />
- <img src="./img/mockup/mockup-pc-02.png"  />
+ <img src="./img/mockup/mockup-pc.png"  />
 </p>
 
 ## Tecnologias
