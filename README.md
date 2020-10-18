@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="30px" />Gobarber
+    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="30px" /> Gobarber
 </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -21,10 +21,9 @@
 
 <p align="center">
  <img src="./img/mockup/mockup-pc.png"  />
- <p align="center">
-   <img src="./img/mockup/gifs/pc.gif"  />
-   <img src="./img/mockup/gifs/mobile.gif"  />
- </p>
+ <img src="./img/mockup/mockup-cel.png"  />
+ <img src="./img/mockup/gifs/pc.gif"  />
+ <img src="./img/mockup/gifs/mobile.gif" width="200px"  />
 </p>
 
 ## Tecnologias
