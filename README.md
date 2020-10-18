@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="120px" />Gobarber
+    <img alt="Gobarber" title="Gobarber" src="https://github.com/demoraes/gobarber/blob/master/img/logo-purple.svg" width="60px" />Gobarber
 </h1>
 
 <p align="center">
