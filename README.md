@@ -59,9 +59,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
   É necessario que você tenha as seguintes ferramentas instaladas em sua máquina:
 
-  <b>[Git](https://git-scm.com)</b>
+    - <b>[Git](https://git-scm.com)</b>
 
-  <b>[Node.js](https://nodejs.org/en/)</b>
+    - <b>[Node.js](https://nodejs.org/en/)</b>
 
   Você pode usar um editor de código de sua preferência, mas eu endico o <b>[VSCode](https://code.visualstudio.com/)</b>
 
